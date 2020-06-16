@@ -2,7 +2,7 @@ let dropdown = document.querySelectorAll('.dropdown')
 
 
 function showElements(event){
-    
+    event.preventDefault()
     let target = event.target
 
     let el = target.nextElementSibling
